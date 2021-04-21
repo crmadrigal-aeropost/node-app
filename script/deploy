@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh pipeline@45.55.48.116 <<EOF
+ssh node@192.168.100.143 <<EOF
 cd ~/Pipelines
 git pull
 npm install — production
