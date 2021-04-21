@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh node@192.168.100.143 <<EOF
-cd ~/Pipelines
+cd ~/node-app
 git pull
 npm install — production
 pm2 restart all
